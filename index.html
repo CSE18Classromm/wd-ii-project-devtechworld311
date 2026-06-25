@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>Amazon Clone</h2>
+    <input type="text" placeholder="Search products">
+    <button>Search</button>
+    <div>Cart: <span id="count">0</span></div>
+</nav>
+
+<div class="banner">
+    <img src="images/banner.jpg" alt="Banner">
+</div>
+
+<div class="products">
+
+    <div class="card">
+        <img src="images/product1.jpg" alt="">
+        <h3>Headphones</h3>
+        <p>₹999</p>
+        <button onclick="addCart()">Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="images/product2.jpg" alt="">
+        <h3>Smart Watch</h3>
+        <p>₹1499</p>
+        <button onclick="addCart()">Add to Cart</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
